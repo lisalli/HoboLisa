@@ -1,0 +1,97 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: #f9edbb; */
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    cursor: url('../../others/cursor.png'), auto;
+}
+.welcome{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background: radial-gradient(circle at center, #fef8bcee 5%, #f1c4cb 45%);
+    position: relative;
+    font-style: italic;
+}
+.meals-title{
+    position: absolute;
+    letter-spacing: 30px;
+    margin: auto auto;
+    left: 18%;
+    font-size: 330px; 
+    color: #e6687e;
+    z-index: 100;
+    font-weight: bold;
+}
+.sub-title{
+    position: absolute;
+    letter-spacing: 5px;
+    font-size: 110px;
+    color: #ffffff;
+    z-index: 200
+}
+.star{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background: #e6687e;
+    clip-path: polygon(33% 33%, 50% 3%, 66% 33%, 97% 50%, 66% 66%, 50% 97%, 33% 66%, 3% 50%, 33% 33%);
+}
+.star1{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    background: #ffffff;
+    clip-path: polygon(33% 33%, 50% 3%, 66% 33%, 97% 50%, 66% 66%, 50% 97%, 33% 66%, 3% 50%, 33% 33%);
+    z-index: 400;
+}
+.rotating-circle {
+    position: absolute;
+    left: 4%;
+    width: 650px;
+    height: 650px;
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg);
+    transform-style: preserve-3d;
+    z-index: 0;
+}
+.life-title{
+    width: 100vw;
+    font-size: 90px;
+    color: #f79998;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 0px;
+}
+.my-text{
+    font-size: 130px;
+    margin-top: 40px;
+    color:#ffffff;
+}
+.drag-page{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #e2abba, #faf4b3); 
+}
+.draggable {
+    position: absolute;
+    height:220px;
+    background-image: url("../../img/about_3.png");
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 220px;
+}

@@ -1,0 +1,11 @@
+
+@font-face {
+    /* font-family: 'Arciform'; 
+    src: url('fonts/Jellee-Bold.ttf') format('truetype');  */
+    font-family: 'Helvetica', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Helvetica', sans-serif;
+}

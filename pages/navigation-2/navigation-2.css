@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+a:hover {
+    text-decoration: none;
+    cursor: url('../others/cursor.png'), auto;
+}
+body{
+    /* background-color: #f9edbb; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    position: relative;
+    cursor: url('../../others/cursor.png'), auto;
+}
+.top{
+    display: flex;
+    background: radial-gradient(circle at center, #fac2cb 10px, #ffffff 60%);
+    justify-content: center;
+    width: 100vw;
+    height: 75vh;
+}
+.back{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    font-size: 25px;
+    color: #df6a84;
+    font-weight: bold;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 25vh;
+    background-image: 
+        radial-gradient(circle at 10% 120%, #ffffff 3px, #fac2cb99 20%),
+        radial-gradient(circle at 90% 10%, #a75b65 20px, #c5828b44 20%),
+        radial-gradient(circle at 90% 90%, #fffd99 20px, #f8e6b3ee 20%),
+        radial-gradient(circle at 60% 10%, #f3f178 10px, #f5eacc 80%),
+        radial-gradient(circle at 30% 20%, #f3acac 10px, #f7d1d7 20%),
+        radial-gradient(circle at 50% 5%, #e0b5b3 20px, #fac2cb99 20%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.bottom .nav{
+    margin-top: 60px;
+    font-size: 75px;
+    color:#ffffff;
+    font-weight: bolder;
+}
+.image-container{
+    margin-top: 20px;
+}
+a{
+    cursor: url('../../others/cursor.png'), auto;
+}
+.image{
+    width:45vh;
+    height: 65vh;
+    margin-top: 8vh;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 0.5s;
+    cursor: url('../../others/cursor.png'), auto;
+}
+#image-1{
+    background-image: url("../../img/nav-3.png");
+}
+#image-1:hover{
+    background-image: url("../../img/nav-3.png");
+    transform:scaleX(-1)
+}
+#image-2{
+    background-image: url("../../img/nav-3.png");
+}
+#image-2:hover{
+    background-image: url("../../img/nav-3.png");
+    transform:scaleX(-1)
+}
